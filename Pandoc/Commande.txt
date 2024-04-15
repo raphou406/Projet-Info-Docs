@@ -1,0 +1,2 @@
+pandoc -f commonmark -t html Markdown/index.md --metadata title="Jeux Olympiques" -o HTML/index.html -s --template Pandoc/monTemplateXHTML.html
+pandoc -f commonmark -t html Markdown/escalade.md --metadata title="Escalade" -o HTML/escalade.html -s --template Pandoc/monTemplateXHTML.html

@@ -1,0 +1,6 @@
+--Pages Index--
+Gros titre au centre
+bandeau et images
+sous titre des pages
+redirection vers pages diverse ( Menu )
+----
