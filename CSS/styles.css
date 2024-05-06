@@ -24,6 +24,13 @@ figure {
     align-items: center;
 }
 
+#auteurs ul{
+    list-style-type: none;
+}
+#auteurs li {
+    text-align: center;
+}
+
 .logoJO {
     width: 200px;
     margin-left: 25px;
