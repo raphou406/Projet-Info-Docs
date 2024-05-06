@@ -1,2 +1,5 @@
-pandoc -f commonmark -t html Markdown/index.md --metadata title="Jeux Olympiques" -o HTML/index.html -s --template Pandoc/monTemplateXHTML.html
-pandoc -f commonmark -t html Markdown/escalade.md --metadata title="Escalade" -o HTML/escalade.html -s --template Pandoc/monTemplateXHTML.html
+pandoc -f commonmark -t html Markdown/index.md --metadata title="Jeux Olympiques" --metadata css="../CSS/styles.css".css" -o HTML/index.html -s --template Pandoc/monTemplateXHTML.html
+pandoc -f commonmark -t html Markdown/escalade.md --metadata title="Escalade" --metadata css="../CSS/styles.css" " -o HTML/escalade.html -s --template Pandoc/monTemplateXHTML.html
+pandoc -f commonmark -t html Markdown/athletisme.md --metadata title="Athletisme" --metadata css="../CSS/styles.css".css" -o HTML/athletisme.html -s --template Pandoc/monTemplateXHTML.html
+pandoc -f commonmark -t html Markdown/escrime.md --metadata title="Escrime" --metadata css="../CSS/styles.css" -o HTML/escrime.html -s --template Pandoc/monTemplateXHTML.html
+pandoc -f commonmark -t html Markdown/histoire.md --metadata title="Histoire" --metadata css="../CSS/styles.css" " -o HTML/histoire.html -s --template Pandoc/monTemplateXHTML.html
