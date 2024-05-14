@@ -233,8 +233,23 @@ figcaption {
     width: 100%;
     margin: 10px;
 }
+.sous-menu{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    text-transform: lowercase;
+    margin-top: 50px;
+    width: 100%;
+    margin: 10px;
+}
 
 #sous-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.sous-menu a {
     color: white;
     text-decoration: none;
 }
